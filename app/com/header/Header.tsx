@@ -4,7 +4,6 @@ import Image from "next/image";
 import styles from "./Header.module.css"
 import Link from "next/link";
 import HamburgerMenu from "./ham/hamb";
-import { useState } from 'react';
 
 export default function Header() {
 

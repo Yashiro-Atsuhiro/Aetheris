@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Header from "./com/Header"
+import Header from "./com/header/Header"
+import ImageSwiper from "./routes/toppage/swiper";
 
 
 
@@ -8,6 +9,7 @@ export default function Home() {
   <>
 
   <Header />
+  <ImageSwiper />
 
   </>
   );

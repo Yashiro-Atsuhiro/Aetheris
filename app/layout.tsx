@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Abhaya_Libre,Noto_Sans_JP } from "next/font/google";
-import "./globals.css";
+import "./css/globals.css";
 
 const notosansjp = Noto_Sans_JP({
   subsets: ['latin'],
