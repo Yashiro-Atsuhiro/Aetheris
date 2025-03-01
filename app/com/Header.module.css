@@ -1,4 +1,52 @@
+.header {
+  display: flex;
+}
+
 .Aethlogo {
   display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.hamburger {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  z-index: 1000;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.fullscreenMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.menuList {
+  list-style: none;
+  text-align: center;
+}
+.menuList li {
+  font-size: 2rem;
+  color: white;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.menuList li:hover {
+  opacity: 0.8;
+}
+
+.logolink {
+  display: inline-block;
   margin: 0 auto;
 }/*# sourceMappingURL=Header.module.css.map */
