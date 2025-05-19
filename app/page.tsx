@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Header from "./com/header/Header"
 import ImageSwiper from "./routes/toppage/swiper";
 
